@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Notebook and editor artifacts
+.ipynb_checkpoints/
+.vscode/
+
+# Large datasets and generated outputs
+Q1/CV S26 A3 Q1 Dataset/
+Q1/checkpoints*/
+Q1/samples_tv_r50fpn/
+Q1/*_EXPORT/
+
+# OS artifacts
+Thumbs.db
+.DS_Store
