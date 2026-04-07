@@ -1,0 +1,25 @@
+data:
+  root_dir: ./ModelNet-10
+  num_points: 1024
+  use_normals: false
+
+train:
+  seed: 42
+  batch_size: 32
+  epochs: 40
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  num_workers: 2
+  label_smoothing: 0.0
+  save_dir: ./outputs/q3_pointnet
+
+model:
+  dropout: 0.3
+  emb_dims: 1024
+  num_classes: 10
+
+wandb:
+  enabled: false
+  project: cv-assignment-q3
+  entity: null
+  run_name: null
