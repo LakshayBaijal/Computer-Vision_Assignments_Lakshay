@@ -41,3 +41,9 @@ Q3/ModelNet-10/
 # Generated checkpoint binaries in working results
 results/**/best.pt
 results/**/pointnet_model.pt
+
+# Sample output directories to keep local-only
+results/q1/visualize_outputs/
+results/q2/residual/qualitative_samples/
+results/q2/vanialla_unet/qualitative_samples/
+results/q2/without_skip/qualitative_samples/
