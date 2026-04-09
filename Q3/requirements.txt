@@ -1,9 +1,11 @@
-torch>=2.2.0
-torchvision>=0.17.0
-numpy>=1.26
-matplotlib>=3.8
-tqdm>=4.66
-PyYAML>=6.0
-plyfile>=1.0
-scikit-learn>=1.4
-wandb>=0.16
+numpy==1.24.4
+matplotlib==3.7.5
+PyYAML==6.0.2
+tqdm==4.67.1
+plyfile==1.0.3
+wandb==0.17.9
+pandas==2.0.3
+
+# PyTorch (Py3.8-compatible builds)
+torch==2.4.1
+torchvision==0.19.1

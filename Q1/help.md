@@ -20,3 +20,14 @@ Run 5 — OBB multi-bin B
 same as Run 4 but bin size example: 60°
 epochs: 10
 Purpose: required comparison of bin sizes.
+
+
+python infer.py --config config/run1_aabb_hp1.yaml --checkpoint "Runs\Q1_RUN1_AABB_HP1_EXPORT\Q1_RUN1_AABB_HP1_final.pth" --infer_samples True --evaluate True
+
+python infer.py --config config/run1_aabb_hp1.yaml --checkpoint "Runs\Q1_RUN2_AABB_HP2_EXPORT\Q1_RUN2_AABB_HP2_final.pth" --infer_samples True --evaluate True
+
+python infer.py --config config/run1_aabb_hp1.yaml --checkpoint "Runs\Q1_RUN3_OBB_DIRECT_EXPORT\Q1_RUN3_OBB_DIRECT_final_20260405_122606.pth" --infer_samples True --evaluate True
+
+python infer.py --config config/st.yaml --checkpoint "Runs\Q1_RUN4_OBB_MULTIBIN30_EXPORT\Q1_RUN4_OBB_MULTIBIN30_final_20260405_143048.pth" --infer_samples True --evaluate True
+
+python infer.py --config config/st.yaml --checkpoint "Runs\Q1_RUN5_OBB_MULTIBIN60_EXPORT\Q1_RUN5_OBB_MULTIBIN60_final_20260405_153836.pth" --infer_samples True --evaluate True

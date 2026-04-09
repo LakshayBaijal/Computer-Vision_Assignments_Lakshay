@@ -19,8 +19,8 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f"Using device: {device}")
 
 def get_iou(det, gt):
-    det_x1, det_y1, det_x2, det_y2 = det
-    gt_x1, gt_y1, gt_x2, gt_y2 = gt
+    det_x1, det_y1, det_x2, det_y2 = det[:4]
+    gt_x1, gt_y1, gt_x2, gt_y2 = gt[:4]
 
     x_left = max(det_x1, gt_x1)
     y_top = max(det_y1, gt_y1)

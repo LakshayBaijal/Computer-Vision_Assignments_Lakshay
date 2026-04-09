@@ -27,3 +27,4 @@ def compute_rmse(depth_pred: torch.Tensor, depth_target: torch.Tensor) -> float:
     mse = torch.mean((depth_pred - depth_target) ** 2)
     rmse = torch.sqrt(mse)
     return float(rmse.item())
+
