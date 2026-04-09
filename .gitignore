@@ -30,17 +30,12 @@ Thumbs.db
 # Local notebook exports and sample output folders
 Output Image/
 sample results/
-Q1/Ipynb Notebook/
-Q2/Ipynb Notebook/
-Q3/Ipynb Notebook/
 
 # Large generated run artifacts
-Q1/Runs/
 Q3/ModelNet-10/
 
-# Generated checkpoint binaries in working results
-results/**/best.pt
-results/**/pointnet_model.pt
+# Keep Q1 run metadata but skip oversized checkpoints (>100MB)
+Q1/Runs/**/*.pth
 
 # Sample output directories to keep local-only
 results/q1/visualize_outputs/
