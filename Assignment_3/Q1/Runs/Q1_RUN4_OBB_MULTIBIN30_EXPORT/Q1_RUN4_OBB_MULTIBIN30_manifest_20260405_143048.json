@@ -1,0 +1,6 @@
+{
+  "run": "Q1_RUN4_OBB_MULTIBIN30",
+  "config": "/kaggle/working/run4_obb_multibin30_20260405_135249.yaml",
+  "latest_checkpoint": "/kaggle/working/Computer-Vision_Assignments_Lakshay/Q1/checkpoints_run4_obb_multibin30_20260405_135249/tv_frcnn_r50fpn_run4_obb_multibin30_20260405_135249.pth",
+  "data_root": "/kaggle/input/datasets/lakshaybaijal/q1-dataset"
+}

@@ -1,0 +1,6 @@
+{
+  "all_checkpoints": [
+    "/kaggle/working/Q1_run1_aabb_hp1_ckpts/tv_frcnn_r50fpn_aabb_hp1.pth"
+  ],
+  "latest": "/kaggle/working/Q1_run1_aabb_hp1_ckpts/tv_frcnn_r50fpn_aabb_hp1.pth"
+}

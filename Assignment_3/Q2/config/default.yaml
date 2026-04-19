@@ -1,0 +1,35 @@
+experiment:
+  name: q2_multitask_unet
+  output_root: outputs
+  seed: 42
+
+dataset:
+  root_dir: ./Segmentation&Depth
+  image_size: 256
+  val_ratio: 0.25
+  num_workers: 2
+
+model:
+  variant: vanilla  # vanilla | noskip | residual
+  in_channels: 3
+  base_channels: 64
+  num_classes: 5
+
+train:
+  batch_size: 8
+  epochs: 10
+  lr: 0.0003
+  weight_decay: 0.0001
+  amp: true
+  lambda_seg: 1.0
+  lambda_depth: 1.0
+  checkpoint_metric: val_total_loss
+
+eval:
+  save_num_visualizations: 10
+
+wandb:
+  enabled: true
+  project: cv-assignment-q2
+  entity: null
+  run_name: null

@@ -1,0 +1,4 @@
+{
+  "selected_checkpoint": "/kaggle/working/Q1_run2_aabb_hp2_ckpts/tv_frcnn_r50fpn_aabb_hp2.pth",
+  "exported_final_model": "/kaggle/working/EXPORT_Q1_RUN2_AABB_HP2_20260405_121149/Q1_RUN2_AABB_HP2_final.pth"
+}
