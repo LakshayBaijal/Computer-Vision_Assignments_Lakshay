@@ -1,0 +1,24 @@
+{
+  "model_name": "vit_hparam_3",
+  "best_val_acc": 78.37,
+  "best_epoch": 44,
+  "epochs_ran": 49,
+  "num_params": 950410,
+  "augmentation": "base",
+  "config": {
+    "model_name": "vit_hparam_3",
+    "epochs": 50,
+    "batch_size": 128,
+    "lr": 0.0002,
+    "weight_decay": 0.05,
+    "patience": 5,
+    "seed": 42
+  },
+  "checkpoint": "../training_curves/1.1_ViT/hyperparameter_tuning/vit_hparam_3_best.pth",
+  "curve_plot": "../training_curves/1.1_ViT/hyperparameter_tuning/vit_hparam_3_curves.png",
+  "dim": 160,
+  "depth": 5,
+  "heads": 4,
+  "mlp_dim": 256,
+  "lr": 0.0002
+}

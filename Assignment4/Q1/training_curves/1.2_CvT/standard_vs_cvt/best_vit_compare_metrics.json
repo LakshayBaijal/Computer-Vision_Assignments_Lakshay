@@ -1,0 +1,19 @@
+{
+  "model_name": "best_vit_compare",
+  "best_val_acc": 78.63,
+  "best_epoch": 47,
+  "epochs_ran": 50,
+  "num_params": 950410,
+  "augmentation": "base",
+  "config": {
+    "model_name": "best_vit_compare",
+    "epochs": 50,
+    "batch_size": 128,
+    "lr": 0.0002,
+    "weight_decay": 0.05,
+    "patience": 5,
+    "seed": 42
+  },
+  "checkpoint": "../training_curves/1.2_CvT/standard_vs_cvt/best_vit_compare_best.pth",
+  "curve_plot": "../training_curves/1.2_CvT/standard_vs_cvt/best_vit_compare_curves.png"
+}

@@ -1,0 +1,19 @@
+{
+  "model_name": "cvt_with_pos_embed",
+  "best_val_acc": 80.53,
+  "best_epoch": 23,
+  "epochs_ran": 23,
+  "num_params": 2941898,
+  "augmentation": "base",
+  "config": {
+    "model_name": "cvt_with_pos_embed",
+    "epochs": 50,
+    "batch_size": 128,
+    "lr": 0.0003,
+    "weight_decay": 0.05,
+    "patience": 5,
+    "seed": 42
+  },
+  "checkpoint": "../training_curves/1.2_CvT/ablation_pos_embed/cvt_with_pos_embed_best.pth",
+  "curve_plot": "../training_curves/1.2_CvT/ablation_pos_embed/cvt_with_pos_embed_curves.png"
+}

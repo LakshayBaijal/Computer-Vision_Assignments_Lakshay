@@ -1,0 +1,19 @@
+{
+  "model_name": "vit_aug_none",
+  "best_val_acc": 72.85,
+  "best_epoch": 27,
+  "epochs_ran": 32,
+  "num_params": 950410,
+  "augmentation": "none",
+  "config": {
+    "model_name": "vit_aug_none",
+    "epochs": 50,
+    "batch_size": 128,
+    "lr": 0.0002,
+    "weight_decay": 0.05,
+    "patience": 5,
+    "seed": 42
+  },
+  "checkpoint": "../training_curves/1.1_ViT/data_augmentations/vit_aug_none_best.pth",
+  "curve_plot": "../training_curves/1.1_ViT/data_augmentations/vit_aug_none_curves.png"
+}

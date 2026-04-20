@@ -1,0 +1,19 @@
+{
+  "model_name": "vit_aug_autoaugment",
+  "best_val_acc": 76.07,
+  "best_epoch": 47,
+  "epochs_ran": 50,
+  "num_params": 950410,
+  "augmentation": "autoaugment",
+  "config": {
+    "model_name": "vit_aug_autoaugment",
+    "epochs": 50,
+    "batch_size": 128,
+    "lr": 0.0002,
+    "weight_decay": 0.05,
+    "patience": 5,
+    "seed": 42
+  },
+  "checkpoint": "../training_curves/1.1_ViT/data_augmentations/vit_aug_autoaugment_best.pth",
+  "curve_plot": "../training_curves/1.1_ViT/data_augmentations/vit_aug_autoaugment_curves.png"
+}

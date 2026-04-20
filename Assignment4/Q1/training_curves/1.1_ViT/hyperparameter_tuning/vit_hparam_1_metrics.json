@@ -1,0 +1,19 @@
+{
+  "model_name": "vit_hparam_1",
+  "best_val_acc": 74.31,
+  "best_epoch": 34,
+  "epochs_ran": 39,
+  "num_params": 364362,
+  "augmentation": "base",
+  "config": {
+    "model_name": "vit_hparam_1",
+    "epochs": 50,
+    "batch_size": 128,
+    "lr": 0.0004,
+    "weight_decay": 0.05,
+    "patience": 5,
+    "seed": 42
+  },
+  "checkpoint": "../training_curves/1.1_ViT/hyperparameter_tuning/vit_hparam_1_best.pth",
+  "curve_plot": "../training_curves/1.1_ViT/hyperparameter_tuning/vit_hparam_1_curves.png"
+}

@@ -1,0 +1,19 @@
+{
+  "model_name": "conv_embed_linear_proj_ablation",
+  "best_val_acc": 67.92,
+  "best_epoch": 45,
+  "epochs_ran": 50,
+  "num_params": 533258,
+  "augmentation": "base",
+  "config": {
+    "model_name": "conv_embed_linear_proj_ablation",
+    "epochs": 50,
+    "batch_size": 128,
+    "lr": 0.0003,
+    "weight_decay": 0.05,
+    "patience": 5,
+    "seed": 42
+  },
+  "checkpoint": "../training_curves/1.2_CvT/ablation_conv_proj/conv_embed_linear_proj_ablation_best.pth",
+  "curve_plot": "../training_curves/1.2_CvT/ablation_conv_proj/conv_embed_linear_proj_ablation_curves.png"
+}

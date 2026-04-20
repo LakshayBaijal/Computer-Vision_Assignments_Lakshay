@@ -1,0 +1,19 @@
+{
+  "model_name": "vit_patch_2",
+  "best_val_acc": 73.68,
+  "best_epoch": 49,
+  "epochs_ran": 50,
+  "num_params": 384330,
+  "augmentation": "base",
+  "config": {
+    "model_name": "vit_patch_2",
+    "epochs": 50,
+    "batch_size": 128,
+    "lr": 0.0003,
+    "weight_decay": 0.05,
+    "patience": 5,
+    "seed": 42
+  },
+  "checkpoint": "../training_curves/1.1_ViT/patch_size_variation/vit_patch_2_best.pth",
+  "curve_plot": "../training_curves/1.1_ViT/patch_size_variation/vit_patch_2_curves.png"
+}

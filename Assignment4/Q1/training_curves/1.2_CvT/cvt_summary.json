@@ -1,0 +1,103 @@
+{
+  "standard_vs_cvt": {
+    "vit": {
+      "model_name": "best_vit_compare",
+      "best_val_acc": 78.63,
+      "best_epoch": 47,
+      "epochs_ran": 50,
+      "num_params": 950410,
+      "augmentation": "base",
+      "config": {
+        "model_name": "best_vit_compare",
+        "epochs": 50,
+        "batch_size": 128,
+        "lr": 0.0002,
+        "weight_decay": 0.05,
+        "patience": 5,
+        "seed": 42
+      },
+      "checkpoint": "../training_curves/1.2_CvT/standard_vs_cvt/best_vit_compare_best.pth",
+      "curve_plot": "../training_curves/1.2_CvT/standard_vs_cvt/best_vit_compare_curves.png"
+    },
+    "cvt": {
+      "model_name": "cvt_standard",
+      "best_val_acc": 80.38,
+      "best_epoch": 23,
+      "epochs_ran": 23,
+      "num_params": 2937546,
+      "augmentation": "base",
+      "config": {
+        "model_name": "cvt_standard",
+        "epochs": 50,
+        "batch_size": 128,
+        "lr": 0.0003,
+        "weight_decay": 0.05,
+        "patience": 5,
+        "seed": 42
+      },
+      "checkpoint": "../training_curves/1.2_CvT/standard_vs_cvt/cvt_standard_best.pth",
+      "curve_plot": "../training_curves/1.2_CvT/standard_vs_cvt/cvt_standard_curves.png"
+    }
+  },
+  "ablation_pos_embed": {
+    "cvt_no_pos": {
+      "model_name": "cvt_standard",
+      "best_val_acc": 80.38,
+      "best_epoch": 23,
+      "epochs_ran": 23,
+      "num_params": 2937546,
+      "augmentation": "base",
+      "config": {
+        "model_name": "cvt_standard",
+        "epochs": 50,
+        "batch_size": 128,
+        "lr": 0.0003,
+        "weight_decay": 0.05,
+        "patience": 5,
+        "seed": 42
+      },
+      "checkpoint": "../training_curves/1.2_CvT/standard_vs_cvt/cvt_standard_best.pth",
+      "curve_plot": "../training_curves/1.2_CvT/standard_vs_cvt/cvt_standard_curves.png"
+    },
+    "cvt_with_pos": {
+      "model_name": "cvt_with_pos_embed",
+      "best_val_acc": 80.53,
+      "best_epoch": 23,
+      "epochs_ran": 23,
+      "num_params": 2941898,
+      "augmentation": "base",
+      "config": {
+        "model_name": "cvt_with_pos_embed",
+        "epochs": 50,
+        "batch_size": 128,
+        "lr": 0.0003,
+        "weight_decay": 0.05,
+        "patience": 5,
+        "seed": 42
+      },
+      "checkpoint": "../training_curves/1.2_CvT/ablation_pos_embed/cvt_with_pos_embed_best.pth",
+      "curve_plot": "../training_curves/1.2_CvT/ablation_pos_embed/cvt_with_pos_embed_curves.png"
+    }
+  },
+  "ablation_conv_proj": {
+    "conv_embed_linear_proj": {
+      "model_name": "conv_embed_linear_proj_ablation",
+      "best_val_acc": 67.92,
+      "best_epoch": 45,
+      "epochs_ran": 50,
+      "num_params": 533258,
+      "augmentation": "base",
+      "config": {
+        "model_name": "conv_embed_linear_proj_ablation",
+        "epochs": 50,
+        "batch_size": 128,
+        "lr": 0.0003,
+        "weight_decay": 0.05,
+        "patience": 5,
+        "seed": 42
+      },
+      "checkpoint": "../training_curves/1.2_CvT/ablation_conv_proj/conv_embed_linear_proj_ablation_best.pth",
+      "curve_plot": "../training_curves/1.2_CvT/ablation_conv_proj/conv_embed_linear_proj_ablation_curves.png"
+    }
+  }
+}

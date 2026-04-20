@@ -1,0 +1,19 @@
+{
+  "model_name": "vit_aug_color",
+  "best_val_acc": 78.43,
+  "best_epoch": 47,
+  "epochs_ran": 50,
+  "num_params": 950410,
+  "augmentation": "color",
+  "config": {
+    "model_name": "vit_aug_color",
+    "epochs": 50,
+    "batch_size": 128,
+    "lr": 0.0002,
+    "weight_decay": 0.05,
+    "patience": 5,
+    "seed": 42
+  },
+  "checkpoint": "../training_curves/1.1_ViT/data_augmentations/vit_aug_color_best.pth",
+  "curve_plot": "../training_curves/1.1_ViT/data_augmentations/vit_aug_color_curves.png"
+}
