@@ -1,0 +1,13 @@
+torch
+torchvision
+transformers
+clip-by-openai
+pycocoevalcap
+matplotlib
+seaborn
+scikit-learn
+Pillow
+gdown
+opencv-python
+numpy
+nltk
