@@ -1,0 +1,41 @@
+image_path,rank,pred_idx,pred_synset,pred_label,probability
+../mini_imagenet\val\n01443537\Image_1.jpg,1,1,n01443537,goldfish,0.0011222142493352294
+../mini_imagenet\val\n01443537\Image_1.jpg,2,397,n02655020,puffer,0.0010899142362177372
+../mini_imagenet\val\n01443537\Image_1.jpg,3,408,n02704792,amphibian,0.0010861123446375132
+../mini_imagenet\val\n01443537\Image_1.jpg,4,27,n01631663,eft,0.0010854370193555951
+../mini_imagenet\val\n01443537\Image_1.jpg,5,124,n01985128,crayfish,0.0010842232732102275
+../mini_imagenet\val\n01443537\Image_2.jpeg,1,1,n01443537,goldfish,0.0011015022173523903
+../mini_imagenet\val\n01443537\Image_2.jpeg,2,899,n04560804,water jug,0.0010915941093116999
+../mini_imagenet\val\n01443537\Image_2.jpeg,3,684,n03840681,ocarina,0.0010856534354388714
+../mini_imagenet\val\n01443537\Image_2.jpeg,4,647,n03733805,measuring cup,0.001080040936358273
+../mini_imagenet\val\n01443537\Image_2.jpeg,5,898,n04557648,water bottle,0.0010772779351100326
+../mini_imagenet\val\n01443537\Image_3.jpeg,1,608,n03594734,jean,0.0010944607201963663
+../mini_imagenet\val\n01443537\Image_3.jpeg,2,818,n04286575,spotlight,0.0010715940734371543
+../mini_imagenet\val\n01443537\Image_3.jpeg,3,985,n11939491,daisy,0.0010712259681895375
+../mini_imagenet\val\n01443537\Image_3.jpeg,4,443,n02834397,bib,0.001069952268153429
+../mini_imagenet\val\n01443537\Image_3.jpeg,5,617,n03630383,lab coat,0.001067642355337739
+../mini_imagenet\val\n01443537\Image_4.jpeg,1,1,n01443537,goldfish,0.0011115582892671227
+../mini_imagenet\val\n01443537\Image_4.jpeg,2,27,n01631663,eft,0.0010840683244168758
+../mini_imagenet\val\n01443537\Image_4.jpeg,3,391,n02536864,coho,0.0010805651545524597
+../mini_imagenet\val\n01443537\Image_4.jpeg,4,0,n01440764,tench,0.0010796809801831841
+../mini_imagenet\val\n01443537\Image_4.jpeg,5,317,n02259212,leafhopper,0.0010787524515762925
+../mini_imagenet\val\n02690373\Image_1.jpg,1,404,n02690373,airliner,0.0011028512381017208
+../mini_imagenet\val\n02690373\Image_1.jpg,2,726,n03954731,plane,0.0010981237282976508
+../mini_imagenet\val\n02690373\Image_1.jpg,3,908,n04592741,wing,0.0010731868678703904
+../mini_imagenet\val\n02690373\Image_1.jpg,4,895,n04552348,warplane,0.0010618772357702255
+../mini_imagenet\val\n02690373\Image_1.jpg,5,628,n03673027,liner,0.0010598980588838458
+../mini_imagenet\val\n02690373\Image_2.jpg,1,908,n04592741,wing,0.0011058126110583544
+../mini_imagenet\val\n02690373\Image_2.jpg,2,404,n02690373,airliner,0.0011053466005250812
+../mini_imagenet\val\n02690373\Image_2.jpg,3,726,n03954731,plane,0.0010929979616776109
+../mini_imagenet\val\n02690373\Image_2.jpg,4,411,n02730930,apron,0.0010922224028035998
+../mini_imagenet\val\n02690373\Image_2.jpg,5,881,n04515003,upright,0.0010909000411629677
+../mini_imagenet\val\n02690373\Image_3.jpg,1,404,n02690373,airliner,0.0010996188502758741
+../mini_imagenet\val\n02690373\Image_3.jpg,2,726,n03954731,plane,0.0010868569370359182
+../mini_imagenet\val\n02690373\Image_3.jpg,3,908,n04592741,wing,0.0010727373883128166
+../mini_imagenet\val\n02690373\Image_3.jpg,4,628,n03673027,liner,0.0010626004077494144
+../mini_imagenet\val\n02690373\Image_3.jpg,5,602,n03535780,horizontal bar,0.001062599360011518
+../mini_imagenet\val\n02690373\Image_4.jpg,1,404,n02690373,airliner,0.00111101393122226
+../mini_imagenet\val\n02690373\Image_4.jpg,2,726,n03954731,plane,0.0010973061434924603
+../mini_imagenet\val\n02690373\Image_4.jpg,3,908,n04592741,wing,0.0010808735387399793
+../mini_imagenet\val\n02690373\Image_4.jpg,4,628,n03673027,liner,0.0010711749782785773
+../mini_imagenet\val\n02690373\Image_4.jpg,5,602,n03535780,horizontal bar,0.001068280660547316

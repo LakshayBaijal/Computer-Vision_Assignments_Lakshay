@@ -1,0 +1,112 @@
+[
+  {
+    "target_idx": 1,
+    "target_synset": "n01443537",
+    "target_label": "goldfish",
+    "image_path": "../mini_imagenet\\val\\n01443537\\Image_2.jpeg",
+    "rn50_top5": [
+      971,
+      899,
+      898,
+      443,
+      411
+    ],
+    "clip_top5": [
+      1,
+      899,
+      684,
+      647,
+      898
+    ],
+    "rn50_top5_hit": false,
+    "clip_top5_hit": true
+  },
+  {
+    "target_idx": 779,
+    "target_synset": "n04146614",
+    "target_label": "school bus",
+    "image_path": "../mini_imagenet\\val\\n04146614\\Image_3.jpeg",
+    "rn50_top5": [
+      481,
+      633,
+      746,
+      609,
+      763
+    ],
+    "clip_top5": [
+      654,
+      779,
+      468,
+      874,
+      656
+    ],
+    "rn50_top5_hit": false,
+    "clip_top5_hit": true
+  },
+  {
+    "target_idx": 491,
+    "target_synset": "n03000684",
+    "target_label": "chain saw",
+    "image_path": "../mini_imagenet\\val\\n03000684\\Image_2.jpg",
+    "rn50_top5": [
+      703,
+      319,
+      462,
+      792,
+      693
+    ],
+    "clip_top5": [
+      596,
+      456,
+      491,
+      777,
+      600
+    ],
+    "rn50_top5_hit": false,
+    "clip_top5_hit": true
+  },
+  {
+    "target_idx": 491,
+    "target_synset": "n03000684",
+    "target_label": "chain saw",
+    "image_path": "../mini_imagenet\\val\\n03000684\\Image_3.jpg",
+    "rn50_top5": [
+      408,
+      866,
+      595,
+      779,
+      803
+    ],
+    "clip_top5": [
+      491,
+      866,
+      595,
+      609,
+      634
+    ],
+    "rn50_top5_hit": false,
+    "clip_top5_hit": true
+  },
+  {
+    "target_idx": 620,
+    "target_synset": "n03642806",
+    "target_label": "laptop",
+    "image_path": "../mini_imagenet\\val\\n03642806\\Image_4.jpg",
+    "rn50_top5": [
+      745,
+      688,
+      485,
+      754,
+      759
+    ],
+    "clip_top5": [
+      532,
+      620,
+      530,
+      526,
+      745
+    ],
+    "rn50_top5_hit": false,
+    "clip_top5_hit": true
+  }
+]

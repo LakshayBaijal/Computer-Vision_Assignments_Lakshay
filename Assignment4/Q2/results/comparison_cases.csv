@@ -1,0 +1,6 @@
+target_idx,target_synset,target_label,image_path,rn50_top5,clip_top5,rn50_top5_hit,clip_top5_hit
+1,n01443537,goldfish,../mini_imagenet\val\n01443537\Image_2.jpeg,"[971, 899, 898, 443, 411]","[1, 899, 684, 647, 898]",False,True
+779,n04146614,school bus,../mini_imagenet\val\n04146614\Image_3.jpeg,"[481, 633, 746, 609, 763]","[654, 779, 468, 874, 656]",False,True
+491,n03000684,chain saw,../mini_imagenet\val\n03000684\Image_2.jpg,"[703, 319, 462, 792, 693]","[596, 456, 491, 777, 600]",False,True
+491,n03000684,chain saw,../mini_imagenet\val\n03000684\Image_3.jpg,"[408, 866, 595, 779, 803]","[491, 866, 595, 609, 634]",False,True
+620,n03642806,laptop,../mini_imagenet\val\n03642806\Image_4.jpg,"[745, 688, 485, 754, 759]","[532, 620, 530, 526, 745]",False,True
